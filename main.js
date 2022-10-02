@@ -33,7 +33,7 @@ function checkResults() {
 	if (emailValue === '') {
 		setError(email, 'Email cannot be blank')
 	} else if (!isEmail(emailValue)) {
-		setError(email, 'Email is not valid')
+		setError(email, 'Looks like this is not an email')
 	} else {
 		setSuccess(email)
 	}
